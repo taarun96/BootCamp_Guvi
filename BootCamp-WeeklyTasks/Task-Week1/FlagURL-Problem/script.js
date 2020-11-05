@@ -2,16 +2,16 @@
 
 var request = new XMLHttpRequest();
 
-//OPEN AND ASYNCHRONOUS
 request.open("GET", "https://restcountries.eu/rest/v2/all", true);
-
-//SEND
 request.send();
 
 //load the sequence
 request.onload = function () {
   var data = JSON.parse(this.responseText);
+  console.log(data);
   for (index = 0; index <= data.length - 1; index++) {
-    console.log(`${data[index].name} flag url: ${data[index].flag}`);
+    console.log(
+      `${index + 1}:  ${data[index].name} flag url: ${data[index].flag}`
+    );
   }
 };

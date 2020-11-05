@@ -9,36 +9,39 @@
 // {firstName: “Sri”, lastName: “Devi”, age: 28, role: “Coder”}
 // ]
 // Sample Function proto:
-// var array = [
-//   [
-//     ["firstName", "Vasanth"],
-//     ["lastName", "Raja"],
-//     ["age", 24],
-//     ["role", "JSWizard"],
-//   ],
-//   [
-//     ["firstName", "Sri"],
-//     ["lastName", "Devi"],
-//     ["age", 28],
-//     ["role", "Coder"],
-//   ],
-// ];
+var array = [
+  [
+    ["firstName", "Vasanth"],
+    ["lastName", "Raja"],
+    ["age", 24],
+    ["role", "JSWizard"],
+  ],
+  [
+    ["firstName", "Sri"],
+    ["lastName", "Devi"],
+    ["age", 28],
+    ["role", "Coder"],
+  ],
+];
 
-// function transformEmployeeData(arr) {
-//   var transformEmployeeList = [];
+function transformEmployeeData(arr) {
+  var transformEmployeeList = [];
 
-//   var newObject = {};
+  var newObject = {};
 
-//   for (i = 0; i < array; i++) {
-//     for (j = 0; j < i; j++) {
-//       newObject = {};
-//       newObject[array[i][j][0]] = array[i][j][1];
+  for (let i in array) {
+    let newObject = {};
+    let subArray = array[i];
+    //console.log(`subArray: ${i} ${subArray}`);
+    for (let j in subArray) {
+      let newArray = subArray[j];
+      //  console.log(`newArray: ${j} ${newArray} `);
+      newObject[newArray[0]] = newArray[1];
+      //console.log(newObject);
+    }
+    transformEmployeeList.push(newObject);
+  }
+  console.log(transformEmployeeList);
+}
 
-//       //console.log(arr[i][j][0], arr[i][j][1]);
-//       transformEmployeeList.push(newObject);
-//     }
-//   }
-//   console.log(transformEmployeeList);
-// }
-
-// transformEmployeeData(array);
+transformEmployeeData(array);
