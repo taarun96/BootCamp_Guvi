@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Parisienne&family=Roboto:wght@300;400;500;700&display=swap");
+
+
+
+
+body {
+  background-color: #1f1527;
+  font-family: "Roboto", sans-serif;
+  margin:0px 50px 250px 50px;
+    
+}
+
+
+.border {
+  margin: 50px 50px 0px;
+  padding: 0;
+  border: 3px dashed white;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom:none;
+  height:406rem;
+  
+}
+.top-container {
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  word-spacing: 15px;
+  letter-spacing: 12px;
+}
+
+.logo {
+  background-color: #1f1527;
+  color: white;
+  height: 60px;
+  width: 340px;
+  font-size: 3rem;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  font-family: "Dosis", sans-serif;
+}
+
+.cur {
+  font-family: "Parisienne", cursive;
+  color: #dfd5cf;
+  font-size: 10rem;
+}
+
+.head-weight {
+  font-family: "Times New Roman", Times, serif;
+  color: #e3bfc1;
+  /* font-weight: bold; */
+  font-size: 2.6rem;
+}
+
+.conts {
+  transform: skewY(4deg);
+  text-align: center;
+  padding: 70px;
+  position: relative;
+  top: 30px;
+}
+
+.container-1 {
+  background-color: #d7cdc4;
+  opacity: 0.8;
+  width: 100%;
+  height: 650px;
+  transform: skewY(-4deg);
+}
+
+.container-2 {
+  width: 100%;
+  height: 650px;
+  background-color: #1d1424;
+  transform: skewY(-4deg);
+}
+
+.container-3 {
+  width: 100%;
+  height: 650px;
+  background-color: #f8d6c3;
+  transform: skewY(-4deg);
+}
+
+.container-4 {
+  width: 100%;
+  height: 650px;
+  background-color: #f1a4b5;
+  transform: skewY(-4deg);
+}
+
+.container-5 {
+  width: 100%;
+  height: 650px;
+  background-color: #c4cbcf;
+  transform: skewY(-4deg);
+}
+
+.container-6 {
+  width: 100%;
+  height: 650px;
+  background-color: #24172b;
+  transform: skewY(-4deg);
+}
+
+.container-7 {
+  width: 100%;
+  height: 650px;
+  background-color: #f6c2ca;
+  transform: skewY(-4deg);
+}
+
+.container-8 {
+  width: 100%;
+  height: 650px;
+  background-color: #fee4cd;
+  transform: skewY(-4deg);
+}
+
+.footer {
+  width: 100%;
+  height: 550px;
+  background-color: #dadcdd;
+  transform: skewY(-4deg);
+}
+
+.footerf {
+  width: 100%;
+  height: 100px;
+  background-color: #dadcdd;
+  position: relative;
+  bottom: 50px;
+}
+
+.cont-div {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  bottom: 50px;
+  text-align: left;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.cont-div-2 {
+  width: 50%;
+  position: relative;
+  left: 41%;
+  bottom: 50px;
+  text-align: left;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.cont-div-3 {
+  width: 50%;
+  position: relative;
+  left: 355px;
+  bottom: 50px;
+  text-align: left;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.cont-div-4 {
+  width: 50%;
+  position: relative;
+  left: 375px;
+  bottom: 50px;
+  text-align: left;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.cont-div-5 {
+  width: 50%;
+  position: relative;
+  left: 365px;
+  bottom: 50px;
+  text-align: left;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.cont-div-6 {
+  width: 60%;
+  position: relative;
+  left: 400px;
+  bottom: 50px;
+  text-align: left;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.cont-div-7 {
+  width: 50%;
+  position: relative;
+  left: 380px;
+  bottom: 50px;
+  text-align: left;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.f-desc {
+  display: inline-block;
+  width: 70%;
+  color: #929497;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.f-title {
+  float: right;
+  position: relative;
+  bottom: 30px;
+}
+
+.footer-logo {
+  color: #000000;
+  font-size: 2rem;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-family: "Dosis", sans-serif;
+}
+
+.title-cont-f {
+  position: relative;
+  text-align: right;
+}
+
+
+.date {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  color: #929497;
+  font-weight: bold;
+}
+
+.fnote {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 1.5rem;
+  color: #929497;
+  font-weight: bold;
+}
