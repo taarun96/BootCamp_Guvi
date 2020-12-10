@@ -1,0 +1,41 @@
+hr{
+    border: 1px solid black;
+}
+.bolder-news{
+    text-transform: uppercase;    
+    font-weight: bold;
+}
+
+.btn{
+    transform: skewX(-8deg);
+}
+
+.redtext{
+    color:red;
+    font-weight: 20px;
+    word-spacing: 5px;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    font-size: 20px;
+    word-spacing: 3px;
+}
+
+
+.vertical-image{
+    height: 70vh;
+}
+
+.horizontal-image{
+    width: 150vh;
+    height: 35vh;
+}
+
+.final-image{
+    height:55vh;
+}
