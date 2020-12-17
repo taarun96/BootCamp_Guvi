@@ -1,0 +1,99 @@
+*{
+    margin:0px 30px;
+}
+
+
+body {
+    box-sizing: border-box; 
+    
+}
+
+.header1
+{
+    display:block;
+    text-align:center;
+    position: relative;
+    background-color:#7e7474;
+    height: 55vh;
+    
+}
+
+
+.profilepic{
+    margin-top:50px;
+    width:200px;
+    height: 200px;
+    /* border: dotted 1px yellow; */
+    
+}
+
+.name1{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 25px; 
+    position: relative;
+    bottom:45px;    
+    
+}
+
+.overlap{
+    height:7.5vh;
+    background-color: whitesmoke;
+    margin:auto;
+    padding: auto;
+} 
+
+
+.sname{
+    padding:20px 40px;
+    background-color:yellow;
+    border-radius: 20px;
+    
+}
+
+
+.paddress{
+    padding:10px;
+    text-align:center;
+
+}
+
+.fas{
+    font-size: 24px;
+    
+}
+
+.profile,.skills,.profile1{
+    padding:10px;
+}
+
+.workexp{
+    padding-top:10px;
+}
+
+.education,.projects{
+    padding:10px;
+}
+
+
+.column{
+  padding-top: 10px 10px;
+  column-count: 2;
+  column-gap: 20px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: lightgray;
+  column-width: 100px;
+}
+table,td{
+    border: 0px;
+    border-collapse: collapse;
+}
+
+.footer{
+    padding:15px;
+    text-align: center;
+    background-color: #f4f4f2;
+}
