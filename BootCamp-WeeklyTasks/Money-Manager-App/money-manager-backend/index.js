@@ -3,8 +3,7 @@ import mongoose from 'mongoose';
 import transactions from './routes/transactions.js';
 import cors from 'cors';
 
-const url =
-  'mongodb+srv://taarun:6XawfaH4JdFG94JR@cluster0.wkhik.mongodb.net/moneytrackerdatabase?retryWrites=true&w=majority';
+const url = process.env.MONGODB_URI || 'mongodb://localhost/MoneyManager';
 
 mongoose.connect(url, { useNewUrlParser: true });
 const con = mongoose.connection;
