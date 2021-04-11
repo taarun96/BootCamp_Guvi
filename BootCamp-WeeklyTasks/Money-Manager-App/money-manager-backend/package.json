@@ -1,0 +1,20 @@
+{
+  "name": "money-manager-app",
+  "version": "1.0.0",
+  "description": "Backend Server for Money Manager",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "client": "npm run start"
+  },
+  "author": "Taarun Purusothaman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7"
+  }
+}

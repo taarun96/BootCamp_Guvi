@@ -15,7 +15,6 @@ export const AddExpenditure = () => {
     e.preventDefault();
 
     const newTransactions = {
-      id: Math.floor(Math.random() * 1000000),
       text,
       amount: +amount,
       type,
@@ -60,10 +59,7 @@ export const AddExpenditure = () => {
               className="form-control required"
               type="select"
               value={type}
-              onChange={(e) =>
-                e.target.value ? setNature(e.target.value) : setNature('Fuel')
-              }
-              required
+              onChange={(e) => setType(e.target.value)}
             >
               <option selected>Select a Value</option>
               <option>Fuel</option>
@@ -80,11 +76,7 @@ export const AddExpenditure = () => {
               className="form-control required"
               type="select"
               value={nature}
-              onChange={(e) =>
-                e.target.value
-                  ? setNature(e.target.value)
-                  : setNature('Personal')
-              }
+              onChange={(e) => setNature(e.target.value)}
               required
             >
               <option>Select a Value</option>
